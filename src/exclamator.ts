@@ -7,12 +7,11 @@ import { countChars } from "./adapters"
 
 // if there is more than 100 occurrences we should add new prop 'limit' to object with 'It has passed second limit value
 
-// if there is more than 100 occurrences we should add new prop 'limit' to object with 'It has passed third limit' value
+// if there is more than 150 occurrences we should add new prop 'limit' to object with 'It has passed third limit' value
 
-// if there is more than 150 occurrences we should add new prop 'limit' to object with 'It has passed fourth limit' value
+// if there is more than 200 occurrences we should add new prop 'limit' to object with 'It has passed fourth limit' value
 
-// if there is more than 200 occurrences we should add new prop 'limit' to object with 'It has passed the last limit' value and another prop 'invalid' with true value
-
+// if there is more than 250 occurrences we should add new prop 'limit' to object with 'It has passed the last limit' value and another prop 'invalid' with true value
 
 
 export const removeExclamations = (sentence: string) => {
