@@ -11,9 +11,9 @@ describe('sum operation', () => {
     expect(sum(23, 2)).toStrictEqual(25);
   })
   it('sums two floats', () => {
-    expect(sum(1.2, 0.7)).toStrictEqual(1.9);
-    expect(sum(2, 0.5)).toStrictEqual(2.5);
     expect(sum(0.1, 0.2)).toStrictEqual(0.3);
+    expect(sum(2.1, 0.5)).toStrictEqual(2.6);
+    expect(sum(2, 4.3)).toStrictEqual(6.3);
   })
   it('sums negative numbers properly', () => {
     expect(sum(4, -2)).toStrictEqual(2);
