@@ -46,4 +46,8 @@ function div(a: number, b: number): number {
 
 // To Implement: sumAll, subAll, multiplyAll, divAll
 
+function sumAll(numbers: number[]) {
+  return numbers.reduce((result, number) => sum(result, number), 0);
+}
+
 export { sum, sub, multiply, div };
